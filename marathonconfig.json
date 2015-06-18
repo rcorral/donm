@@ -1,0 +1,18 @@
+{
+  "id": "donm",
+  "cpus": 0.1,
+  "mem": 128.0,
+  "container": {
+    "type": "DOCKER",
+    "docker": {
+      "image": "rcorral/donm",
+      "network": "BRIDGE",
+      "portMappings": [
+        { "containerPort": 3000, "hostPort": 0 }
+      ]
+    },
+    "privileged": false,
+    "paramneters": [],
+    "forcePullImage": false
+  }
+}
